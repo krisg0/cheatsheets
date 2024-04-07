@@ -1,6 +1,4 @@
 # Git usage cheatsheet #
-
-------------------------------------------
 ## HEAD and detached HEAD ##
 -if you dont have any changes to keep
 >`git checkout main`
