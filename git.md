@@ -1,4 +1,7 @@
 #   Git usage cheatsheet    #
+##  Commit  ##
+-   add and commit in one step
+    >`git commit -am "message"`
 ##  HEAD and detached HEAD  ##
 -   if you dont have any changes to keep
     >   `git checkout main`
