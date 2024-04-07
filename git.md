@@ -24,3 +24,9 @@
 
 -   delete remote branch
     >   `git push -d <branchname>`
+
+##  SSH  ##
+1.    ssh-keygen -t ed25519 -C "krisg0@tee.dummy.com"
+2.    add public key to github account
+3.    eval "$(ssh-agent -s)"
+4.    ssh-add <path_to_private_key>
