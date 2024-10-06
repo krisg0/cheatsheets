@@ -1,4 +1,7 @@
 #   Linux usage cheatsheet    #
+##  file  ##
+> `file -i filename`
+***show the encoding of a file***
 ##  Debian  ##
 -   upgrade to testing release
     >   `git checkout main`
