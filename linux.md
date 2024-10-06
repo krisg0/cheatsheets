@@ -2,6 +2,7 @@
 ##  file  ##
 -    show the encoding of a file
     >    `file -i filename`
+  >   `git checkout main`
 
 ##  Debian  ##
 -   upgrade to testing release
