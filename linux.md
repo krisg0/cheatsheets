@@ -1,6 +1,6 @@
 #   Linux usage cheatsheet    #
 ##  file  ##
--show the encoding of a file
+-    show the encoding of a file
     > `file -i filename`
 
 ##  Debian  ##
