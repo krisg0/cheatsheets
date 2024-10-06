@@ -1,7 +1,7 @@
 #   Linux usage cheatsheet    #
 ##  file  ##
 -    show the encoding of a file
--    > `file -i filename`
+    > `file -i filename`
 
 ##  Debian  ##
 -   upgrade to testing release
