@@ -1,4 +1,6 @@
 #   Git usage cheatsheet    #
+#   reference    #
+[GitLab Git Cheatsheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 ##  Commit  ##
 -   add and commit in one step
     >`git commit -am "message"`
