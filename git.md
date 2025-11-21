@@ -4,20 +4,29 @@
 ##  Commit  ##
 -   add and commit in one step
     >`git commit -am "message"`
-##  HEAD and detached HEAD  ##
--   if you dont have any changes to keep
-    >   `git checkout main`
+    >
+##  Sync to local  ##
+-   If you have NO local changes (Replace main with your branch name if different.) This force-syncs your working directory to be identical to the remote branch.)
+    > `git fetch`
+    > “Get me the latest info, but don’t touch my files yet.”
+    > 
+    > `git reset --hard origin/main`
+-   If you DO have local changes you want to keep
+    > `git pull --rebase` "Get the latest info AND update my files right now."
+    > Rebase only your local branches that nobody else uses.
+    > 
+    > This applies your changes on top of the latest remote commit. If there are conflicts, Git will pause and ask you to resolve them, then continue:
+    
+    > `git rebase --continue`
+ ##  Discard local changes  ##
+-   discard local changes and back to original workspace version
+    >'git restore path/to/your-file'
+   
+-   discard local chagnes and sync to latest remote version
+    > 'git fetch'          # get latest remote version
+    > 'git checkout origin/main -- path/to/your-file'
 
--   if you have changes that you want to keep
-    >   option1:
-`git branch temp`
-`git checkout main`
-`git merge temp`
 
-    >   option2:
-`git stash`
-`git checkout main`
-`git stash pop`
 
 ##  Branch  ##
 -   delete local branch
